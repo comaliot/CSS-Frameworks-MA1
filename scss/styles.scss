@@ -1,0 +1,25 @@
+@import 'card';
+@import 'utilities';
+
+body {
+  h1 {
+    text-align: center;
+  }
+}
+
+.showcase {
+  flex-wrap: wrap;
+  padding: 5rem;
+}
+
+.row div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
